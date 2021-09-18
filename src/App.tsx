@@ -1,16 +1,14 @@
 import React from 'react'
-import Diagram from "./pages/Diagram";
-import {BrowserRouter, Switch, Route} from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
+import Login from './pages/Login';
 
 const App = () => {
   return (
-    <BrowserRouter>
       <Switch>
-        <Route exact path='/'>
-          <Diagram/>
-        </Route>
+        <Route exact path='/' component={Login} />
+        <Route></Route>
+        
       </Switch>
-    </BrowserRouter>
   );
 };
 

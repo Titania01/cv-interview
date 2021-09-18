@@ -2,7 +2,12 @@
 
 @import 'tailwindcss/components';
 
+
 @import 'tailwindcss/utilities';
+:root{
+    font-size: 16px;
+    box-sizing: border-box;
+}
 
 body {
     -webkit-font-smoothing: antialiased;
