@@ -2,6 +2,7 @@
 /* eslint-disable react/jsx-key */
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import './Sidenav.css'
 
 import AssessmentIcon from './vectors/AssessmentIcon'
 import GraphIcon from './vectors/GraphIcon'
@@ -26,11 +27,13 @@ const Sidenav = () => {
     },
   ]
   return (
-    <div className="border-r-2 sidenav">
-      <p className="text-[#093D5E] text-center pt-[2rem] font-bold text-2xl pb-[6.66rem]">Logo</p>
-      <div className="flex flex-col">
+    <div className="sidenav">
+      <div className="pl-[8.5rem] pt-[1.4375rem]">
+        <img src="/public/images/logo.svg" alt="" />
+      </div>
+      <div className="flex flex-col Nave mt-[1.375rem] ml-[1.9375rem]">
         {navItems.map((nav, navIndex) => (
-          <NavLink to={`${nav.path}`} className="flex items-center pt-[2.8125rem] pl-[3.3125rem]">
+          <NavLink to={`${nav.path}`} className="flex pt-[2.8125rem] pl-[3.405rem]">
             <nav.icon />
             <span className="pl-[1.2rem]">{nav.name}</span>
           </NavLink>
