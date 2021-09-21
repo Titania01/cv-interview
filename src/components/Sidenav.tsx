@@ -29,7 +29,7 @@ const Sidenav = () => {
   return (
     <div className="sidenav">
       <div className="pl-[8.5rem] pt-[1.4375rem]">
-        <img src="/public/images/logo.svg" alt="" />
+        <img src="/images/logo.svg" alt="" />
       </div>
       <div className="flex flex-col Nave mt-[1.375rem] ml-[1.9375rem]">
         {navItems.map((nav, navIndex) => (

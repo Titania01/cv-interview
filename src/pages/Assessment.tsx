@@ -15,7 +15,7 @@ const Assessment = () => {
               <p className="pb-[0.75rem]">React</p>
               <p className="text-sm font-light text-[#676767]">4 sections - 23 questions</p>
             </div>
-            <img src="/public/images/arrow.svg" alt="" />
+            <img src="/images/arrow.svg" alt="" />
           </div>
 
           <div className="ml-[3rem]">
@@ -24,7 +24,7 @@ const Assessment = () => {
                 <p className="pb-[0.75rem]">React</p>
                 <p className="text-sm font-light text-[#676767]">4 sections - 23 questions</p>
               </div>
-              <img src="/public/images/arrow.svg" alt="" />
+              <img src="/images/arrow.svg" alt="" />
             </div>
           </div>
 
@@ -34,7 +34,7 @@ const Assessment = () => {
                 <p className="pb-[0.75rem]">React</p>
                 <p className="text-sm font-light text-[#676767]">4 sections - 23 questions</p>
               </div>
-              <img src="/public/images/arrow.svg" alt="" />
+              <img src="/images/arrow.svg" alt="" />
             </div>
           </div>
         </div>

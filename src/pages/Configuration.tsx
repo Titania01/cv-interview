@@ -1,11 +1,14 @@
 /* eslint-disable no-use-before-define */
 import React from 'react'
+import DashboardLayout from '../components/DashboardLayout'
 
 const Configuration = () => {
   return (
-    <div>
-      <p>Configuration</p>
-    </div>
+    <DashboardLayout>
+      <div>
+        <p>Configuration</p>
+      </div>
+    </DashboardLayout>
   )
 }
 
