@@ -20,11 +20,12 @@ const ReactTest = () => {
 
           <div className="mt-[7.5rem]">
             <div>
-              <div>
+              <div className="flex justify-between">
                 <p>React Foundations</p>
-
-                <p>5/10</p>
-                <img src="" alt="" />
+                <div>
+                  <p>5/10</p>
+                  <img src="/images/arrow-up.svg" alt="" />
+                </div>
               </div>
               <p className="pt-[3.5rem]">1. Differentiate between Real DOM and Virtual DOM.</p>
               <input type="text" placeholder="Candidate is not sure of the answer" />

@@ -21,7 +21,7 @@ const Assessment = () => {
           <div className="ml-[3rem]">
             <div className="flex items-center justify-around mt-[3rem] assess-box">
               <div>
-                <p className="pb-[0.75rem]">React</p>
+                <p className="pb-[0.75rem]">vue</p>
                 <p className="text-sm font-light text-[#676767]">4 sections - 23 questions</p>
               </div>
               <img src="/images/arrow.svg" alt="" />
@@ -31,7 +31,7 @@ const Assessment = () => {
           <div className="ml-[3rem]">
             <div className="flex items-center justify-around mt-[3rem] assess-box">
               <div>
-                <p className="pb-[0.75rem]">React</p>
+                <p className="pb-[0.75rem]">NodeJS</p>
                 <p className="text-sm font-light text-[#676767]">4 sections - 23 questions</p>
               </div>
               <img src="/images/arrow.svg" alt="" />
