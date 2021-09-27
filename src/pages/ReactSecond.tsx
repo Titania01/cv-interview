@@ -1,9 +1,8 @@
-/* eslint-disable no-use-before-define */
 import React from 'react'
 import DashboardLayout from '../components/DashboardLayout'
-import './ReactTest.css'
+import './ReactSecond.css'
 
-const ReactTest = () => {
+const ReactSecond = () => {
   return (
     <DashboardLayout>
       <div className="overflow-x-hidden">
@@ -15,19 +14,31 @@ const ReactTest = () => {
         <div className="ml-[20.3125rem]">
           <div className="mt-[1.625rem]">
             <p className="text-xl font-medium">Enter Candidate’s details</p>
-            <input type="text" placeholder="Enter candidate name" className="mt-[1.625rem]" /> <br />
-            <input type="text" placeholder="Role" />
+            <input type="text" placeholder="Ayodeji Williams" className="mt-[1.625rem]" /> <br />
+            <input type="text" placeholder="React Developer" />
           </div>
 
           <div className="mt-[7.5rem]">
             <div>
-              <div className="flex justify-between">
-                <p className="text-xl font-medium">React Foundations</p>
+              <div className="flex items-center justify-between">
+                <div className="flex items-center">
+                  <p className="text-xl font-medium">React Foundations</p>
+                  <img src="/images/check.svg" alt="" />
+                </div>
                 <div className="flex mr-[19.25rem]">
                   <p className="mr-[2.25rem] text-[#3359df] font-medium text-xl">5/10</p>
                   <img src="/images/arrow-up.svg" alt="" />
                 </div>
               </div>
+
+              <div className="flex pt-[5.5rem]">
+                <p className="flex-grow text-xl font-medium">Algorithms</p>
+                <div className="flex mr-[19.25rem]">
+                  <p className="mr-[2.25rem] text-[#3359df] font-medium text-xl">5/10</p>
+                  <img src="/images/down-arrow.svg" alt="" />
+                </div>
+              </div>
+
               <p className="pt-[3.5rem]">1. Differentiate between Real DOM and Virtual DOM.</p>
               <input type="text" placeholder="Candidate is not sure of the answer" />
               <br />
@@ -55,14 +66,6 @@ const ReactTest = () => {
               <input type="text" placeholder="Score" />
             </div>
 
-            <div className="flex pt-[8.5rem]">
-              <p className="flex-grow text-xl font-medium">Algorithms</p>
-              <div className="flex mr-[19.25rem]">
-                <p className="mr-[2.25rem]">5/10</p>
-                <img src="/images/down-arrow.svg" alt="" />
-              </div>
-            </div>
-
             <div className="flex mt-[5.5rem]">
               <p className="flex-grow text-xl font-medium">Second Title</p>
               <div className="flex mr-[19.25rem]">
@@ -80,4 +83,4 @@ const ReactTest = () => {
   )
 }
 
-export default ReactTest
+export default ReactSecond

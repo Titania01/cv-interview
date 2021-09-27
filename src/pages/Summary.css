@@ -1,0 +1,19 @@
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-side {
+  display: flex;
+}
+
+.main {
+  border: 1px solid #dfe5ec;
+  border-radius: 8px;
+  padding: 0 4.5rem;
+}
+
+ul > li {
+  color: #434343;
+}
