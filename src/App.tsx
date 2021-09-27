@@ -9,6 +9,7 @@ import ReactTest from './pages/ReactTest'
 import ReactSecond from './pages/ReactSecond'
 import ReactThird from './pages/ReactThird'
 import Summary from './pages/Summary'
+import Summarytwo from './pages/Summarytwo'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Route path="/node" component={ReactThird} />
       <Route path="/summaries" component={Summaries} />
       <Route path="/summary" component={Summary} />
+      <Route path="/summarytwo" component={Summarytwo} />
       <Route path="/configuration" component={Configuration} />
     </Switch>
   )

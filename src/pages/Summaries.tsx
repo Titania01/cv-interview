@@ -2,12 +2,13 @@
 import React from 'react'
 import DashboardLayout from '../components/DashboardLayout'
 import './Summaries.css'
-
+import TableWidget from './../components/TableWidget'
 const Summaries = () => {
   return (
     <DashboardLayout>
       <div>
-        <p className="text-xl font-medium">Summaries</p>
+        <TableWidget />
+        {/* <p className="text-xl font-medium">Summaries</p>
         <table>
           <tr className="table-head">
             <th>Name</th>
@@ -17,19 +18,15 @@ const Summaries = () => {
             <th>Status</th>
             <th>Date</th>
           </tr>
-          {Array(13)
-            .fill('')
-            .map((item, itemIndex) => (
-              <tr key={`summary-table-data-index${itemIndex}`}>
-                <td>Aboyeji Tolulope</td>
-                <td>React Developer</td>
-                <td>React</td>
-                <td>5/10</td>
-                <td>Approved</td>
-                <td>12:45pm, 23rd Monday, June 2021</td>
-              </tr>
-            ))}
-        </table>
+          <tr>
+            <td>Aboyeji Tolulope</td>
+            <td>React Developer</td>
+            <td>React</td>
+            <td>5/10</td>
+            <td>Approved</td>
+            <td>12:45pm, 23rd Monday, June 2021</td>
+          </tr>
+        </table> */}
       </div>
     </DashboardLayout>
   )

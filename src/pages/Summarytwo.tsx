@@ -1,17 +1,16 @@
 import React from 'react'
 import DashboardLayout from '../components/DashboardLayout'
-import './Summary.css'
+import './Summarytwo.css'
+import Button from '../components/Button'
 
-const Summary = () => {
+const Summarytwo = () => {
   return (
     <DashboardLayout>
       <div className="major">
         <div className="top">
           <div className="flex">
             <img src="/images/left-arrow.svg" alt="" />
-            <p className="pl-[1.1669rem] font-medium text-xl">
-              Summary for Ayodeji Tolulope - React developer - <span className="text-green-500">Accepted</span>{' '}
-            </p>
+            <p className="pl-[1.1669rem] font-medium text-xl">Summary for Ayodeji Tolulope - React developer</p>
           </div>
           <div className="top-side">
             <div className="flex mr-[2.825rem]">
@@ -41,8 +40,8 @@ const Summary = () => {
           </ul>
 
           <p className="para pt-[2rem]">Primary Stack Knowledge and frameworks</p>
-          <ul className="list-disc list-inside">
-            <li>Has basic understanding of Javaaaaaa</li>
+          <ul>
+            <li>Has basic understanding of Java</li>
             <li>Could answer some of the questions regarding OOP correctly but he was quite wrong on a few</li>
             <li>
               Is familiar with only the basics of spring boot. Could not answer <br /> questions about spring beans
@@ -51,7 +50,7 @@ const Summary = () => {
           </ul>
 
           <p className="para pt-[2rem]">HackerRank Test Review</p>
-          <ul className="list-decimal">
+          <ul>
             <li>Passed but some plagiarism was detected. Will give on-screen to gauge.</li>
           </ul>
 
@@ -109,9 +108,13 @@ const Summary = () => {
             <li>Backend with Java</li>
           </ul>
         </div>
+        <div className="flex button">
+          <Button label="Reject" />
+          <Button label="Approve" />
+        </div>
       </div>
     </DashboardLayout>
   )
 }
 
-export default Summary
+export default Summarytwo
