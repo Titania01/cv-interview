@@ -8,25 +8,18 @@ const Summaries = () => {
     <DashboardLayout>
       <div>
         <TableWidget />
-        {/* <p className="text-xl font-medium">Summaries</p>
-        <table>
-          <tr className="table-head">
-            <th>Name</th>
-            <th>Role</th>
-            <th>Interview type</th>
-            <th>Score</th>
-            <th>Status</th>
-            <th>Date</th>
-          </tr>
-          <tr>
-            <td>Aboyeji Tolulope</td>
-            <td>React Developer</td>
-            <td>React</td>
-            <td>5/10</td>
-            <td>Approved</td>
-            <td>12:45pm, 23rd Monday, June 2021</td>
-          </tr>
-        </table> */}
+        <div className="flex justify-between pt-[3.25rem] pb-[4.25rem] text-[0.875rem] items-center text-[#676767]">
+          <p>Showing 10 of 320</p>
+          <div className="flex justify-between">
+            <img src="/images/arr-left.svg" className="pr-[1.5rem]" alt="" />
+            <p className="pr-[1.5rem]">Prev</p>
+            <img src="/images/one.svg" className="pr-[1.5rem]" alt="" />
+            <p className="pr-[1.5rem]">2</p>
+            <p className="pr-[1.5rem]">3</p>
+            <p className="pr-[1.5rem]">Next</p>
+            <img src="/images/arr-right.svg" alt="" />
+          </div>
+        </div>
       </div>
     </DashboardLayout>
   )
