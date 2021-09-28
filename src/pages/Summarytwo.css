@@ -1,6 +1,6 @@
-.major {
+/* .major {
   overflow-x: hidden;
-}
+} */
 
 .top {
   display: flex;
@@ -23,10 +23,27 @@
 ul > li {
   color: #434343;
 }
-/* 
+
 .button {
-  display: block;
+  display: flex;
   justify-items: center;
   align-items: center;
-  margin-left: 39.4375rem; */
-/* } */
+  margin-left: 30.4375rem;
+  color: white;
+  width: 30rem;
+}
+
+.buttonA {
+  background: #eb5757;
+  height: 4rem;
+  width: 12.75rem;
+  border-radius: 2.5rem;
+  margin-right: 2.8125rem;
+}
+
+.buttonB {
+  background: #27ae60;
+  height: 4rem;
+  width: 12.75rem;
+  border-radius: 2.5rem;
+}

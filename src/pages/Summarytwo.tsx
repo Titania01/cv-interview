@@ -1,7 +1,6 @@
 import React from 'react'
 import DashboardLayout from '../components/DashboardLayout'
 import './Summarytwo.css'
-import Button from '../components/Button'
 
 const Summarytwo = () => {
   return (
@@ -109,8 +108,8 @@ const Summarytwo = () => {
           </ul>
         </div>
         <div className="flex button">
-          <Button label="Reject" />
-          <Button label="Approve" />
+          <button className="buttonA">Reject</button>
+          <button className="buttonB">Approve</button>
         </div>
       </div>
     </DashboardLayout>
