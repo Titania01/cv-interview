@@ -3,11 +3,12 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import Login from './pages/Login'
 import Assessment from './pages/Assessment'
-import Summaries from './pages/Summaries'
-import Configuration from './pages/Configuration'
 import ReactTest from './pages/ReactTest'
+import Summaries from './pages/Summaries'
 import Summary from './pages/Summary'
 import Summarytwo from './pages/Summarytwo'
+import Configuration from './pages/Configuration'
+import InterviewType from './pages/InterviewType'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Route path="/summary" component={Summary} />
       <Route path="/summarytwo" component={Summarytwo} />
       <Route path="/configuration" component={Configuration} />
+      <Route path="/interview" component={InterviewType} />
     </Switch>
   )
 }

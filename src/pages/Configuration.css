@@ -1,0 +1,7 @@
+.config-box {
+  border: dashed 1.4px #3357df;
+  width: 18.1875rem;
+  height: 5.1875rem;
+  border-radius: 0.5rem;
+  background-color: rgba(67, 97, 238, 0.05);
+}
