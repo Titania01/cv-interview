@@ -6,6 +6,7 @@ import './Configuration.css'
 
 const Configuration = () => {
   const history = useHistory()
+
   return (
     <DashboardLayout>
       <div className="pl-[5.75rem]">

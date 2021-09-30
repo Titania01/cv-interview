@@ -11,7 +11,7 @@ const Login = () => {
           <p className="font-medium text-base text-[#2e2e2e] pb-[0.625rem] pt-[5.25rem]">Email</p>
           <input type="text" placeholder="placeholder" className="first-input" />
 
-          <p className="font-medium text-base text-[#2e2e2e] pb-[0.625rem] pt-[1.5rem]  ">Password</p>
+          <p className="font-medium text-base text-[#2e2e2e] pb-[0.625rem] pt-[1.5rem]">Password</p>
           <div className="flex items-center eye">
             <input className="flex-grow" type="text" placeholder="placeholder" />
             <img src="/images/eye.svg" alt="" />
