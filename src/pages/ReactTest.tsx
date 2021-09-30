@@ -15,8 +15,8 @@ const ReactTest = () => {
           <p className="ml-[1.166875rem] text-xl font-medium">React</p>
         </div>
 
-        <div className="pl-[20.3125rem]">
-          <div className="mt-[1.625rem]">
+        <div className="pl-[20.3125rem] ">
+          <div className="mt-[1.625rem] react-test">
             <p className="text-xl font-medium">Enter Candidate’s details</p>
             <input type="text" placeholder="Enter candidate name" className="mt-[1.625rem]" /> <br />
             <input type="text" placeholder="Role" />
@@ -40,26 +40,26 @@ const ReactTest = () => {
             {opentab === 0 && (
               <form>
                 {' '}
-                <div className="pl-[2rem]">
+                <div className="pl-[2rem] react-test">
                   {' '}
                   <p className="pt-[3.5rem]">1. Differentiate between Real DOM and Virtual DOM.</p>
                   <input type="text" placeholder="Candidate is not sure of the answer" />
                   <br />
                   <input type="text" placeholder="Score" />
                 </div>
-                <div className="pl-[2rem]">
+                <div className="pl-[2rem] react-test">
                   <p className="pt-[3rem]">2. What do you understand by Virtual DOM? Explain its working.</p>
                   <input type="text" placeholder="Candidate is not sure of the answer" />
                   <br />
                   <input type="text" placeholder="Score" />
                 </div>
-                <div className="pl-[2rem]">
+                <div className="pl-[2rem] react-test">
                   <p className="pt-[3rem]">3. What is a state in React and how is it used?</p>
                   <input type="text" placeholder="Candidate is not sure of the answer" />
                   <br />
                   <input type="text" placeholder="Score" />
                 </div>
-                <div className="pt-[3.5rem] pl-[2rem]">
+                <div className="pt-[3.5rem] pl-[2rem] react-test">
                   <p>4. Explain the lifecycle methods of React components in detail.</p>
                   <input type="text" placeholder="Candidate is not sure of the answer" />
                   <br />
@@ -84,28 +84,28 @@ const ReactTest = () => {
             </div>
             {opentab === 1 && (
               <form>
-                <div className="pl-[2rem]">
+                <div className="pl-[2rem] react-test">
                   <p className="pt-[3.5rem]">1. Differentiate between Real DOM and Virtual DOM.</p>
                   <input type="text" placeholder="Candidate is not sure of the answer" />
                   <br />
                   <input type="text" placeholder="Score" />
                 </div>
 
-                <div className="pl-[2rem]">
+                <div className="pl-[2rem] react-test">
                   <p className="pt-[3rem]">2. What do you understand by Virtual DOM? Explain its working.</p>
                   <input type="text" placeholder="Candidate is not sure of the answer" />
                   <br />
                   <input type="text" placeholder="Score" />
                 </div>
 
-                <div className="pl-[2rem]">
+                <div className="pl-[2rem] react-test">
                   <p className="pt-[3rem]">3. What is a state in React and how is it used?</p>
                   <input type="text" placeholder="Candidate is not sure of the answer" />
                   <br />
                   <input type="text" placeholder="Score" />
                 </div>
 
-                <div className="pt-[3.5rem] pl-[2rem]">
+                <div className="pt-[3.5rem] pl-[2rem] react-test">
                   <p>4. Explain the lifecycle methods of React components in detail.</p>
                   <input type="text" placeholder="Candidate is not sure of the answer" />
                   <br />
@@ -127,7 +127,7 @@ const ReactTest = () => {
             </div>
             {opentab === 2 && (
               <form>
-                <div className="pl-[2rem]">
+                <div className="pl-[2rem] react-test">
                   {' '}
                   <p className="pt-[3.5rem]">1. Differentiate between Real DOM and Virtual DOM.</p>
                   <input type="text" placeholder="Candidate is not sure of the answer" />
@@ -135,21 +135,21 @@ const ReactTest = () => {
                   <input type="text" placeholder="Score" />
                 </div>
 
-                <div className="pl-[2rem]">
+                <div className="pl-[2rem] react-test">
                   <p className="pt-[3rem]">2. What do you understand by Virtual DOM? Explain its working.</p>
                   <input type="text" placeholder="Candidate is not sure of the answer" />
                   <br />
                   <input type="text" placeholder="Score" />
                 </div>
 
-                <div className="pl-[2rem]">
+                <div className="pl-[2rem] react-test">
                   <p className="pt-[3rem]">3. What is a state in React and how is it used?</p>
                   <input type="text" placeholder="Candidate is not sure of the answer" />
                   <br />
                   <input type="text" placeholder="Score" />
                 </div>
 
-                <div className="pt-[3.5rem] pl-[2rem]">
+                <div className="pt-[3.5rem] pl-[2rem] react-test">
                   <p>4. Explain the lifecycle methods of React components in detail.</p>
                   <input type="text" placeholder="Candidate is not sure of the answer" />
                   <br />

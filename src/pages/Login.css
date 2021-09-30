@@ -1,16 +1,15 @@
 .login {
-  @apply flex flex-col items-center justify-between col-span-5;
-
-  background: #e5e5e5;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
 }
 
 .border {
   border: solid 1px #dde2e5;
-  background-color: white;
   margin-top: 9rem;
   width: 26.5rem;
   height: 31rem;
-  display: flex;
+  /* display: flex; */
   border-radius: 12px;
   justify-content: center;
 }
@@ -22,17 +21,14 @@
   width: 18.5rem;
   height: 3rem;
   padding-left: 1rem;
+  margin-top: 0.75rem;
 }
 input:focus {
   outline: none;
+  /* border: none; */
 }
 
 .eye {
-  border: 1px solid #dde2e5;
-  box-sizing: border-box;
-  border-radius: 4px;
-  width: 18.5rem;
-  height: 3rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 1.25rem;
+  cursor: pointer;
 }
