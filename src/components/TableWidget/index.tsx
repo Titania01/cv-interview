@@ -38,10 +38,10 @@ const TableWidget = ({
     role: 'React Developer',
     interviewType: 'React',
     score: '5/10',
-    status: 'Approved',
+    status: <span className="text-[#27ae60]">Approved</span>,
     date: '12:45PM, 23rd Monday, June 2021',
   }),
-  rowClickAction,
+  rowClickAction = () => {},
   selectedRow,
 }: PropTypes) => {
   const tableId = id ? `${id}-table` : 'table'
@@ -66,6 +66,7 @@ const TableWidget = ({
           <tbody className="bg-white divide-y divide-gray-200">
             {tableData.map((row: any, rowIndex: number) => (
               <tr
+                onClick={() => rowClickAction(rowIndex + 1)}
                 key={`${tableId}-row_${rowIndex}`}
                 className={
                   selectedRow !== null ? (selectedRow === (row._id || row.id || rowIndex) ? 'bg-gray-100' : '') : ''

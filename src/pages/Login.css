@@ -1,6 +1,6 @@
 .login {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   justify-content: center;
 }
 
@@ -9,7 +9,6 @@
   margin-top: 9rem;
   width: 26.5rem;
   height: 31rem;
-  /* display: flex; */
   border-radius: 12px;
   justify-content: center;
 }
@@ -25,7 +24,6 @@
 }
 input:focus {
   outline: none;
-  /* border: none; */
 }
 
 .eye {
