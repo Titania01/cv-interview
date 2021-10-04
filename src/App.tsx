@@ -6,12 +6,16 @@ import Assessment from './pages/Assessment'
 import Summaries from './pages/Summaries'
 import Configuration from './pages/Configuration'
 import InterviewType from './pages/InterviewType'
+import ReactTest from './pages/ReactTest'
+import FirstInterview from './pages/FirstInterview'
 
 const App = () => {
   return (
     <Switch>
       <Route exact path="/" component={Login} />
       <Route path="/assessment" component={Assessment} />
+      <Route path="/react" component={ReactTest} />
+      <Route path="/first" component={FirstInterview} />
       <Route path="/summaries" component={Summaries} />
       <Route path="/configuration" component={Configuration} />
       <Route path="/interview" component={InterviewType} />

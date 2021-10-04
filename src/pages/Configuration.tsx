@@ -46,7 +46,7 @@ const Configuration = () => {
           </div>
         </div>
 
-        <div className="" onClick={() => history.push('/interview')}>
+        <div className="" onClick={() => history.push('/first')}>
           <div className="flex items-center mt-[3rem] config-box">
             <div className="pl-[2.75rem]">
               <p className="font-medium">Add Interview Type</p>

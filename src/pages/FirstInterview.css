@@ -1,0 +1,24 @@
+.small {
+  border: 1px solid #e5e5e5;
+  height: 4rem;
+  width: 5rem;
+  border-radius: 8px;
+}
+.small2 {
+  border: 1px solid #e5e5e5;
+  height: 4rem;
+  width: 8rem;
+  border-radius: 8px;
+  /* margin-bottom: 8rem; */
+}
+
+.basic {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.basi {
+  border-bottom: 1px solid #b5b2b2;
+  padding-bottom: 1rem;
+}
