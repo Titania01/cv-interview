@@ -1,14 +1,12 @@
 import React from 'react'
-import { useHistory } from 'react-router-dom'
 import './Summary.css'
 
-const Summary = () => {
-  const history = useHistory()
+const Summary = ({ setIsOpen = () => {} }: { setIsOpen: Function }) => {
   return (
     <div className="major">
       <div className="top">
         <div className="flex">
-          <img src="/images/left-arrow.svg" alt="" onClick={() => history.push('/summaries')} />
+          <img src="/images/left-arrow.svg" alt="" onClick={() => setIsOpen()} />
           <p className="pl-[1.1669rem] font-medium text-xl">
             Summary for Ayodeji Tolulope - React developer - <span className="text-green-500">Accepted</span>{' '}
           </p>

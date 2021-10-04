@@ -1,7 +1,9 @@
 import React from 'react'
 import './Login.css'
+import { useHistory } from "react-router-dom"
 
 const Login = () => {
+  const move = useHistory()
   return (
     <div className="login">
       <form className="border">
@@ -20,7 +22,7 @@ const Login = () => {
           </div>
         </div>
 
-        <div className="flex items-center cursor-pointer justify-center mt-14 ml-16 bg-blue-600 text-white font-bold w-[18.5rem] rounded-[2.5rem] h-[4rem]">
+        <div className="flex items-center cursor-pointer justify-center mt-14 ml-16 bg-blue-600 text-white font-bold w-[18.5rem] rounded-[2.5rem] h-[4rem]" onClick={() => move.push('/assessment')}>
           <button>Login</button>
         </div>
       </form>

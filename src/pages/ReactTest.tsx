@@ -159,7 +159,7 @@ const ReactTest = () => {
             )}
           </div>
         </div>
-        <div className="flex items-center ml-[32.8375rem] mt-[7.5rem] bg-[#3359df] w-[18.5rem] h-[4rem] rounded-[2.5rem] text-white justify-center mb-[12.4375rem]">
+        <div className="flex items-center ml-[32.8375rem] mt-[7.5rem] bg-[#3359df] w-[18.5rem] h-[4rem] rounded-[2.5rem] text-white justify-center mb-[12.4375rem]" onClick={() => history.push('/summarytwo')}>
           <button>Conclude Interview</button>
         </div>
       </div>

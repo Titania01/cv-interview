@@ -4,3 +4,7 @@ TableWidget {
 .TableArea {
   @apply flex-grow overflow-y-auto;
 }
+
+.TableWidget {
+  font-size: 14px;
+}

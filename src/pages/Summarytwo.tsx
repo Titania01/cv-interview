@@ -1,14 +1,16 @@
 import React from 'react'
 import DashboardLayout from '../components/DashboardLayout'
 import './Summarytwo.css'
+import { useHistory } from 'react-router-dom'
 
 const Summarytwo = () => {
+  const history = useHistory()
   return (
     <DashboardLayout>
       <div className="major">
         <div className="top">
-          <div className="flex">
-            <img src="/images/left-arrow.svg" alt="" />
+          <div className="flex" onClick={() => history.push('/react')} >
+            <img src="/images/left-arrow.svg" alt=""  />
             <p className="pl-[1.1669rem] font-medium text-xl">Summary for Ayodeji Tolulope - React developer</p>
           </div>
           <div className="top-side">
@@ -24,7 +26,7 @@ const Summarytwo = () => {
         </div>
         <div className="main">
           <p className="para pt-[2rem]">Summary</p>
-          <ul>
+          <ul className="list-disc list-inside">
             <li>Candidate has a basic understanding of Java and Spring.</li>
             <li>Candidate has experience developing payment platforms with Spring boot.</li>
             <li>
@@ -39,7 +41,7 @@ const Summarytwo = () => {
           </ul>
 
           <p className="para pt-[2rem]">Primary Stack Knowledge and frameworks</p>
-          <ul>
+          <ul className="list-disc list-inside">
             <li>Has basic understanding of Java</li>
             <li>Could answer some of the questions regarding OOP correctly but he was quite wrong on a few</li>
             <li>
@@ -49,17 +51,17 @@ const Summarytwo = () => {
           </ul>
 
           <p className="para pt-[2rem]">HackerRank Test Review</p>
-          <ul>
+          <ul className="list-disc list-inside">
             <li>Passed but some plagiarism was detected. Will give on-screen to gauge.</li>
           </ul>
 
           <p className="para pt-[2rem]">Data Structures and Algorithms (2/5)</p>
-          <ul>
+          <ul className="list-disc list-inside">
             <li>Is not very familiar with how to calculate time complexity of algorithms.</li>
           </ul>
 
           <p className="para pt-[2rem]">Datastores (4/5)</p>
-          <ul>
+          <ul className="list-disc list-inside">
             <li>SQL databases, postgres, Oracle</li>
             <li>Mongodb for nosql experience</li>
             <li>Is familiar with ACID principle</li>
@@ -81,33 +83,33 @@ const Summarytwo = () => {
           </ul>
 
           <p className="para pt-[2rem]">Security (3/5)</p>
-          <ul>
+          <ul className="list-disc list-inside">
             <li>Uses spring jwt to ensure API security.</li>
             <li>Uses role based authorization to ensure more security</li>
           </ul>
 
           <p className="para pt-[2rem]">Architecture (2/5)</p>
-          <ul>
+          <ul className="list-disc list-inside">
             <li>Is not familiar with SOLID</li>
             <li>Is familiar with Microservice architecture</li>
           </ul>
 
           <p className="para pt-[2rem]">Cloud Ops / DevOps (3/5)</p>
-          <ul>
+          <ul className="list-disc list-inside">
             <li>Docker, Kubernetes, Jenkins Ci/Cd</li>
           </ul>
 
           <p className="para pt-[2rem]">Agile (3/5)</p>
-          <ul>
+          <ul className="list-disc list-inside">
             <li>Is familiar with Agile, the concepts of sprints and sprint retrospective.</li>
           </ul>
 
           <p className="para pt-[2rem]">Preferred job position</p>
-          <ul className="pb-[3.9375rem]">
+          <ul className="pb-[3.9375rem] list-inside list disc">
             <li>Backend with Java</li>
           </ul>
         </div>
-        <div className="flex button">
+        <div className="flex button mb-[10.625rem]">
           <button className="buttonA">Reject</button>
           <button className="buttonB">Approve</button>
         </div>
