@@ -8,6 +8,7 @@ import Configuration from './pages/Configuration'
 import InterviewType from './pages/InterviewType'
 import ReactTest from './pages/ReactTest'
 import FirstInterview from './pages/FirstInterview'
+import Summarytwo from './pages/Summarytwo'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Route path="/react" component={ReactTest} />
       <Route path="/first" component={FirstInterview} />
       <Route path="/summaries" component={Summaries} />
+      <Route path="/summarytwo" component={Summarytwo} />
       <Route path="/configuration" component={Configuration} />
       <Route path="/interview" component={InterviewType} />
     </Switch>

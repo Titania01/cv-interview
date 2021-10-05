@@ -3,3 +3,8 @@
   height: 24.75rem;
   border-radius: 8px;
 }
+
+.link.active {
+  color: #335df9;
+  background: rgba(67, 97, 238, 0.06);
+}
