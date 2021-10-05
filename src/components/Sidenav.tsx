@@ -3,14 +3,12 @@
 import React from 'react'
 import { NavLink, useHistory } from 'react-router-dom'
 import './Sidenav.css'
-
 import AssessmentIcon from './vectors/AssessmentIcon'
 import GraphIcon from './vectors/GraphIcon'
 import SettingsIcon from './vectors/SettingsIcon'
 
 const Sidenav = () => {
   const history = useHistory()
-
   const navItems = [
     {
       name: 'Assessment',
